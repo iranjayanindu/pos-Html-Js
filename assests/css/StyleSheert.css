@@ -1,0 +1,99 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 0px auto;
+
+}
+.container .box{
+    position: relative;
+    width: calc(100% - 30px);
+    height: calc(200px - 30px);
+    background: #ff0;
+    /*background: #000;*/
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.container .box .icon .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    transition: 0.5s;
+    color: #fff;
+}
+.container .box:hover .icon .fas{
+    font-size: 40px;
+}
+.container .box .contant-box{
+    position: absolute;
+    top: 60%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.container .box:hover .contant-box{
+    top: 90px;
+    opacity: 1;
+}
+.container .box .contant-box h3{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+}
+.container .box .contant-box p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 24px;
+}
+.container .box:nth-child(1) .icon{
+    background: #319635;
+}
+.container .box:nth-child(1){
+    background: #4caf50;
+}
+.container .box:nth-child(2) .icon{
+    background: #d03852;
+}
+.container .box:nth-child(2){
+    background: #f54967;
+}
+.container .box:nth-child(3) .icon{
+    background: #23798e;
+}
+.container .box:nth-child(3){
+    background: #328fa5;
+}
+#bntCancel{
+    top:10px;
+    position: relative;
+}
+.myfont{
+    color: white;
+}

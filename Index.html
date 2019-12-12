@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pos-System</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="assests/css/StyleSheert.css">
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assests/js/jquery-3.4.1.min.js">
+    <link rel="stylesheet" href="assests/font-awsome/css/all.css">
+
+    <script src="assests/jquery/jquery-3.4.1.min.js"></script>
+
+
+
+</head>
+<body>
+
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <h2>FoodCity</h2>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="linkHome">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="linkCustomer">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="linkitem">Items</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="linkorder">Purchase Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> Card pay Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</section>
+<section id="home">
+    <section>
+        <div class="container-fluid ">
+            <div class="row ">
+
+                <div class="col-12 col-lg-4 col-mg-4 col-sm-4 ">
+                    <div class="container">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="contant-box">
+                                <h3>Customers</h3>
+                                <p>200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 col-mg-4 col-sm-4">
+                    <div class="container">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fas fa-cash-register"></i>
+
+                            </div>
+                            <div class="contant-box">
+                                <h3>Order</h3>
+                                <p>3040</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 col-mg-4 col-sm-4">
+                    <div class="container">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fas fa-box-open"></i>
+                            </div>
+                            <div class="contant-box">
+                                <h3>Items</h3>
+                                <p>32000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="bd-example col-12 col-lg-4 col-mg-4 col-sm-6">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assests/image/supermarket.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assests/image/HKmarket-0496.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assests/image/s.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class=" col-12 col-lg-4 col-mg-4 col-sm-6">
+                    <h3>Chart</h3>
+                    <img src="assests/image/chart%2001.jpg " height="200" class="rounded col-12 col-lg-12 col-mg-12 col-sm-12" alt="...">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+</section>
+<!------------------------------------------------------Customer------------------------------------------------------------------------>
+<section id="customer">
+    <section >
+        <i class="fas fa-users" style="font-size: 50px"></i>
+        <div class="container-fluid">
+            <div class="row">
+
+                <form class="col-12 col-sm-12 col-mg-4 col-lg-4 col-xl-4">
+                    <div class="form-group col-md-4 col-4">
+                        <label for="inputcusid">Customer ID</label>
+                        <input type="text" class="form-control" id="inputcusid">
+                    </div>
+                    <div class="form-row">
+
+                        <div class="form-group col-md-6">
+                            <label for="inputFirstname1">First Name</label>
+                            <input type="text" class="form-control" id="inputFirstname1" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastName1">Last Name</label>
+                            <input type="text" class="form-control" id="inputLastName1" placeholder="Last Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputAddress1">Address</label>
+                        <input type="text" class="form-control" id="inputAddress1" placeholder="1234 Main St">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="inputNic1">Nic</label>
+                            <input type="text" class="form-control" id="inputNic1" placeholder="Nic">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="inputcontact1">Contact</label>
+                            <input type="text" class="form-control" id="inputcontact1" placeholder="Contact">
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="btn btn-success" id="Addbtn">Add Customer</button>
+                    <button type="button" class="btn btn-warning">Clear</button>
+                    <button type="submit " class="btn btn-danger">Cancel</button>
+                </form>
+                <div class="col-12 col-sm-12 col-mg-8 col-lg-8 col-xl-8">
+                    <table class="table table-hover table-responsive-sm" id="custable">
+                        <thead>
+                        <tr class="table-dark">
+                            <th scope="col">#</th>
+                            <th scope="col">Customer ID</th>
+                            <th scope="col">First NAME</th>
+                            <th scope="col">First NAME</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">NIC</th>
+                            <th scope="col">Contact</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>C001</td>
+                            <td>Iran</td>
+                            <td>Jayanindu</td>
+                            <td>Panadura</td>
+                            <td>962020216v</td>
+                            <td>0774201441</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>C002</td>
+                            <td>Pasn</td>
+                            <td>Lashika</td>
+                            <td>Bandaragama</td>
+                            <td>962023416v</td>
+                            <td>0774568984</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>C003</td>
+                            <td>Buddhi</td>
+                            <td>Isuru</td>
+                            <td>Bandaragama</td>
+                            <td>9620204565v</td>
+                            <td>0774578456</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</section>
+<!--------------------------------------------------------item------------------------------------------------------------------------------->
+<section id="item">
+    <section >
+        <i class="fas fa-cart-arrow-down" style="font-size: 50px"></i>
+        <div class="container-fluid">
+            <div class="row">
+
+                <form class="col-12 col-sm-12 col-mg-6 col-lg-6 col-xl-6">
+                    <div class="form-group">
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Item Code</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputFirstname">Item</label>
+                            <input type="text" class="form-control" id="inputFirstname" placeholder="Item">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputAddress">Description</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Item description">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="inputNic">QTY</label>
+                            <input type="text" class="form-control" id="inputNic" placeholder="QTY">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="inputcontact">Unit Price</label>
+                            <input type="text" class="form-control" id="inputcontact" placeholder="">
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="btn btn-success" id="AddItem">Add Item</button>
+                    <button type="button" class="btn btn-warning">Clear</button>
+                    <button type="button" class="btn btn-danger">Cancel</button>
+                </form>
+                <div class="col-12 col-sm-12 col-mg-6 col-lg-6 col-xl-6">
+                    <table class="table table-hover"  id="itemTable">
+                        <thead>
+                        <tr class="table-dark">
+                            <th scope="col">#</th>
+                            <th scope="col">ITEM ID</th>
+                            <th scope="col">ITEM NAME</th>
+                            <th scope="col">QTY</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Unit PRICE</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>i001</td>
+                            <td>SAMBA</td>
+                            <td>500Kg</td>
+                            <td>Keeri samaba</td>
+                            <td>356</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>i002</td>
+                            <td>tipi tip</td>
+                            <td>1000</td>
+                            <td>Batagoda tipitip</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>i003</td>
+                            <td>Astra</td>
+                            <td>500pack</td>
+                            <td>astra compny</td>
+                            <td>500</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</section>
+<!---------------------------------------------------Purch------------------------------------------------------------------------------------>
+<section id="putch">
+    <section >
+        <i class="fas fa-shopping-cart" style="font-size: 50px"></i>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h6>Manage Customer & Order</h6>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCusID1">Customer ID</label> <a
+                                href="Customer.html"><button type="button" class="btn btn-success">+</button></a>
+<!--                            <select id="inputCusID1" class="form-control col">-->
+<!--                                <option selected>C001</option>-->
+<!--                                <option>C002</option>-->
+<!--                            </select>-->
+                            <input type="text" class="form-control" id="inputCusID1" placeholder="Customer ID">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastName">Customer Name</label>
+                            <input type="text" class="form-control" id="inputLastName" placeholder="Customer Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputOrderID">Order ID</label>
+<!--                            <select id="inputOrderID" class="form-control col">-->
+<!--                                <option selected>O001</option>-->
+<!--                                <option>O002</option>-->
+<!--                            </select>-->
+                            <input type="text" class="form-control" id="inputOrderID" placeholder="Order ID">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col ">
+                    <h6>Manage item</h6>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCusID">Item ID</label> <a
+                                href="Items.html"><button type="button" class="btn btn-success">+</button></a>
+<!--                            <select id="inputItemID" class="form-control col">-->
+<!--                                <option selected>i001</option>-->
+<!--                                <option>i002</option>-->
+<!--                            </select>-->
+                            <input type="text" class="form-control" id="inputItemID" placeholder="Item ID">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputItemName">Item Name</label>
+                            <input type="text" class="form-control" id="inputItemName" placeholder="Item Name">
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <input type="text" class="form-control" id="inputItemprice" placeholder="Unit Price">
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <input type="text" class="form-control" id="inputItemQty" placeholder="Stork QTY">
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <input type="text" class="form-control" id="inputQty" placeholder="QTY">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-warning rounded float-right">Clear</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-mg-6 col-lg-6 col-xl-6"><table class="table table-hover">
+                    <thead>
+                    <tr class="table-dark">
+                        <th scope="col">#</th>
+                        <th scope="col">ITEM ID</th>
+                        <th scope="col">ITEM NAME</th>
+                        <th scope="col">QTY</th>
+                        <th scope="col">PRICE</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>i001</td>
+                        <td>SAMBA</td>
+                        <td>2Kg</td>
+                        <td>356</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>i002</td>
+                        <td>tipi tip</td>
+                        <td>2</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>i003</td>
+                        <td>Astra</td>
+                        <td>250g</td>
+                        <td>500</td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+
+                <div class="col-12 col-sm-6 col-mg-3 col-lg-3 col-xl-3 bg-dark">
+                    <label><h4 class="myfont">Total Price :</h4></label>
+                    <label><h4 class="myfont">0.00</h4></label>
+                    <div class="form-group col-md-8">
+                        <input type="text" class="form-control"  placeholder="Discount">
+                    </div>
+                    <label><h3 class="myfont">Price :</h3></label>
+                    <label><h3 class="myfont">0.00</h3></label>
+                    <div class="form-group col-md-8">
+                        <input type="text" class="form-control"  placeholder="Pay Amount">
+                    </div>
+                    <label><h4 class="myfont">Balance :</h4></label>
+                    <label><h4 class="myfont">0.00</h4></label>
+
+                </div>
+                <div class="col-12 col-sm-12 col-mg-3 col-lg-3 col-xl-3 text-center">
+
+                    <button id="bntCancel" type="button" class="btn btn-warning btn-sm btn-block">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-sm btn-block">Hold Order</button>
+
+                    <button type="button" class="btn btn-success btn-lg btn-block">Proceed</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="controller/DashBoardController.js"></script>
+<script src="controller/CustomerController.js"></script>
+<script src="controller/ItemController.js"></script>
+<script src="db/DB.js"></script>
+<script src="model/Customer.js"></script>
+<script>
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
